@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="homeContainer">
+                <h3 class="heading">HOME</h3>
+                    <div id="homeBoard">
+                        <h1 id="homePointsText">0</h1>
+                    </div>
+                <div class="homePoints">
+                    <div id="pointsLength">
+                        <button class="pointsText" class="points1" onclick="onePointH()">+1</button>
+                        <button class="pointsText" class="points2" onclick="twoPointsH()">+2</button>
+                        <button class="pointsText" class="points3" onclick="threePointsH()">+3</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h3 class="heading">AWAY</h3>
+                    <div id="homeBoard">
+                        <h1 id="guestPointsText">0</h1>
+                    </div>
+                <div class="homePoints">
+                    <div id="pointsLength">
+                        <button class="pointsText" class="points1" onclick="onePointG()">+1</button>
+                        <button class="pointsText" class="points2" onclick="twoPointsG()">+2</button>
+                        <button class="pointsText" class="points3" onclick="threePointsG()">+3</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        <div id="resetContainer"> 
+            <button id="reset" onclick="resetScore()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

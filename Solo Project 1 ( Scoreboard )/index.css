@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.homeContainer{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+}
+
+.heading{
+    font-size: 30px;
+}
+#homeBoard {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#homePointsText{
+font-family: Cursed Timer ULiL;
+font-weight: 400;
+font-style: Regular;
+font-size: 90px;
+letter-spacing: 0%;
+color: #F94F6D;
+}
+
+#pointsLength{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 155px;  
+}
+
+.pointsText{
+    font-family: 'cursed Timer ULil', sans-serif;
+    margin-top: 26px;
+    margin-left: 9px;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px 
+}
+
+#guestPointsText{
+font-family: Cursed Timer ULiL;
+font-weight: 400;
+font-style: Regular;
+font-size: 90px;
+letter-spacing: 0%;
+color: #F94F6D;
+}
+
+#resetContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset{
+    display: flex;
+    font-family: 'cursed Timer ULil', sans-serif;
+    margin-top: 26px;
+    margin-left: 9px;
+    width: 100px;
+    height: 45px;
+    background-color: transparent;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+}

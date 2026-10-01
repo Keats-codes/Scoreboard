@@ -1,2 +1,0 @@
-# Scoreboard
-Scoreboard for Sports
